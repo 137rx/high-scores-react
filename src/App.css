@@ -15,6 +15,8 @@ h1, h2 {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   border: 10px solid greenyellow;
   padding: 1%;
   margin: 2%;
@@ -25,8 +27,10 @@ span {
 }
 
 .individual-score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   border: 1px solid black;
-  margin: 0px;
   padding: 1%;
 }
 
